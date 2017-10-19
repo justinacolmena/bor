@@ -16,6 +16,10 @@
 %\addtolength{\evensidemargin}{-1in}
 %\addtolength{\textwidth}{2in}
 
+\usepackage[makeindex]{glossaries}
+\usepackage[automake]{glossaries-extra}
+\makeglossaries
+\loadglsentries{bor-glossary}
 
 
 %opening
@@ -56,7 +60,7 @@ The work of this translation is original and is hereby placed in the public doma
 
 
 \tblock
-{Congress of the United States, begun and held at the City of New-York, on Wednesday the fourth of March, one thousand seven hundred and eighty nine.}
+{\gls{congress} of the United States, begun and held at the City of New-York, on Wednesday the fourth of March, one thousand seven hundred and eighty nine.}
 {Samlag av de Förenta Staterna, börjat och hållet å Staden New-York, på onsdag den fjärde mars, ett tusen sju hundra och åttio nio.}
 {Eduskunta Yhdys-Valloista, alkanut ja pidetty Kaupungissa New-York keski-viikkona neljäntenä maaliskuuta, yksi tuhat seitsemän sataa ja kahdeksan kymmentä yhdeksän.}
 {Le Congrès des États-Unis, commencé et tenu à la ville de New-York, mercredi le quatrième mars, mille sept cent quatre-vingt neuf.}
@@ -92,7 +96,7 @@ The work of this translation is original and is hereby placed in the public doma
 ~
 
 \tblock
-{in Congress assembled,}
+{in \gls{congress} assembled,}
 {i Samlag församlade,}
 {Eduskunnassa kokoonnuttu,}
 {en Congrès assemblés,}
@@ -110,7 +114,7 @@ The work of this translation is original and is hereby placed in the public doma
 ~
 
 \tblock
-{that the following Articles be proposed to the Legislatures of the several States, as amendments to the Constitution of the United States, all, or any of which Articles, when ratified by three fourths of the said Legislatures, to be valid to all intents and purposes, as part of the said Constitution; viz.}
+{that the following Articles be proposed to the \glspl{legislature} of the several States, as amendments to the Constitution of the United States, all, or any of which Articles, when ratified by three fourths of the said \glspl{legislature}, to be valid to all intents and purposes, as part of the said Constitution; viz.}
 {att de följande Artiklarna föreslås till de skilda Staternas Lagstiftande församlingar, som tillägg till de Förenta Staternas Konstitution, alla, eller några av vilka artiklar, när ratificerade av tre fjärdedelar nämnda Lagstiftande församlingar, till att gälla i alla uppsåt och avsikter som del av nämnda Konstitution; nämligen}
 {että seuraavat Artiklat ehdotettaisiin kunkin Vallan lainsäädäntäelimelle, lisäyksiksi Yhdys-Valtojen Perustuslakiin, kaikkien, tai minkään joista Artikloista, ollen hyväksytty kolmelta neljänneltä osalta mainituista lainsäädäntäelimistä, kelvata kaikkiin tarkoituksiin, osana mainittua Perustuslakia; nimittäin}
 {que les Articles suivants fussent proposés aux Législatures des États distincts, comme amendements à la Constitution des États-Unis, tous, ou quelques desquels articles, lorsque ratifiés par trois quatrièmes des Législatures mentionnées, pour être valides à toutes fins et intentions comme partie de la Constitution mentionnée; à savoir}
@@ -119,7 +123,7 @@ The work of this translation is original and is hereby placed in the public doma
 ~
 
 \tblock
-{\textsc{Articles} in addition to, and Amendment of the Constitution of the United States of America, proposed by Congress, and ratified by the Legislatures of the several States, pursuant to the fifth Article of the original Constitution.}
+{\textsc{Articles} in addition to, and Amendment of the Constitution of the United States of America, proposed by \gls{congress}, and ratified by the \glspl{legislature} of the several States, pursuant to the fifth Article of the original Constitution.}
 {\textsc{Artiklar} i tillägg till, och Förändring av Amerikas Förenta Staters Konstitution, föreslagna av Samlaget, och ratificerade av de skilda Staternas Lagstiftande församlingar, enligt den ursprungliga Konstitutionens femte Artikel.}
 {\textsc{Artiklat} lisäykseksi ja muuttamiseksi Amerikan Yhdys-Valtojen Perustuslakiin, ehdotetut Eduskunnalta, ja hyväksyttävät kunkin Vallan lainsäädäntäelimeltä, alkuperäisen Perustuslain viidennen Artiklan mukaan.}
 {\textsc{Articles} en ajout et en Amendement à la Constitution des États-Unis, proposés par le Congrès, et ratifiés par les Léglislatures des États distincts, en application du cinquième Article de la Constitution originelle.}
@@ -131,7 +135,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 \end{quote}
 \subsection*{Amendment I}
 \tblock
-{Congress shall make no law}
+{\gls{congress} shall make no law}
 {Samlaget skall icke stifta någon lag}
 {Ei Eduskunnan pidä säättämän lakia}
 {Le Congrès ne fera point de loi}
@@ -196,7 +200,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 {kansan oikeutta omistaa ja kantaa Aseita, ei pidä loukattaman.}
 {le droit du peuple de tenir et de porter des Armes, ne sera pas enfreint.}
 {!`no habla español!}
-
+\color{red}
 \subsection*{Gun Control Act of 1968}
 
 \begin{quote}
@@ -249,7 +253,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 {---}
 {---}
 {!`no habla español!}
-
+\color{black}
 \subsection*{Amendment III}
 \tblock
 {No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.}
@@ -277,7 +281,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 
 \subsection*{Amendment V}
 \tblock
-{No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury,}
+{No person shall be held to answer for a \gls{infamous-crime}, unless on a \gls{presentment} or \gls{indictment} of a \gls{grand-jury},}
 {Ingen person skall hållas till svars för ett med dödsstraff belagt, eller på annat sätt infamt brott, såvida icke på ett föreläggande eller åtal av en Åtalsjury,}
 {Ei henkilöä pidä pidettämän vastuussa kuolemalla rangaistettavasta taikka toisaalta törkeästä rikoksesta, ellei Suurelta Valamiehistöltä syytä löydettämisellä eli syytteeseen panettamisella,}
 {Nulle personne ne sera mise à la question, d'un crime capital ou d'ailleurs infâme, sinon à la présentation ou à la mise en cause d'un Grand Jury,}
@@ -295,7 +299,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 ~
 
 \tblock
-{nor shall any person be subject for the same offence to be twice placed in jeopardy of life or limb;}
+{nor shall any person be subject for the same offence to be \gls{double-jeopardy} of life or limb;}
 {icke heller skall någon person stå för samma brott till att två gånger utsättas för fara för liv eller lem;}
 {eikä pidä mitään henkilöä altistettaman samasta rikoksesta kahdesti panettaa vaaraan elämästä taikka jäsenestä;}
 {ni ne sera assujettie nulle personne de la même offense à être deux fois mise au <<\,jeu-parti\,>> de la vie ou du membre;}
@@ -313,7 +317,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 ~
 
 \tblock
-{nor be deprived of life, liberty, or property, without due process of law;}
+{nor be deprived of life, liberty, or property, without \gls{due-process};}
 {och icke heller berövas liv, frihet, eller egendom, utan vederbörlig rättegång;}
 {eikä häneltä riistettämän elämää, vapautta, taikka omaisuutta, ilman asianmukaista oikeudenkäyntiä;}
 {ni privée de la vie, de la liberté, ou de la propriété, sans le procès dû de la loi;}
@@ -478,7 +482,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 
 \subsubsection*{Section 2.}
 \tblock
-{Congress shall have power to enforce this article by appropriate legislation.}
+{\gls{congress} shall have power to enforce this article by appropriate legislation.}
 {Samlaget skall hava makt att framtvinga denna artikel genom tillämplig lagstiftning.}
 {Eduskunnalla pitää oleman valtuuden pakottaa tätä artiklaa asiallisen lainsäädönnön kautta.}
 {Le Congrès aura le pouvoir d'appliquer cet article-ci par législation convenable.}
@@ -510,7 +514,7 @@ Note: The following text is a transcription of the first ten amendments to the C
 ~
 
 \tblock
-{nor shall any State deprive any person of life, liberty, or property, without due process of law;}
+{nor shall any State deprive any person of life, liberty, or property, without \gls{due-process};}
 {icke heller skall någon stat beröva någon person liv, frihet, eller egendom, utan vederbörlig rättegång;}
 {eikä pidä minkään Vallan riistämän miltäkään henkilöltä elämää, vapautta, taikka omaisuutta, ilman asianmukaista oikeudenkäyntiä;}
 {ni aucune personne ne privera aucun État de la vie, de la liberté, ou de la propriéte, sans le procès dû de la loi;}
@@ -532,7 +536,7 @@ $\cdots$
 
 \subsubsection*{Section 5.}
 \tblock
-{The Congress shall have the power to enforce, by appropriate legislation, the provisions of this article.}
+{The \gls{congress} shall have the power to enforce, by appropriate legislation, the provisions of this article.}
 {Samlaget skall hava makten att framtvinga, genom tillämplig lagstiftning, de åtgärder utsatta i denna artikel.}
 {Eduskunnalla pitää oleman valtuuden pakottaa, asiallisen lainsäädönnön kautta, tämän artiklan toimenpiteitä.}
 {Le Congrès aura le pouvoir, par législation convenable, d'appliquer les dispositions de cet article-ci.}
@@ -563,7 +567,7 @@ $\cdots$
 
 \subsubsection*{Section 2.}
 \tblock
-{The Congress shall have the power to enforce this article by appropriate legislation.}
+{The \gls{congress} shall have the power to enforce this article by appropriate legislation.}
 {Samlaget skall hava makten att framtvinga denna artikel genom tillämplig lagstiftning.}
 {Eduskunnalla pitää oleman valtuuden pakottaa tätä artiklaa asiallisen lainsäädönnön kautta.}
 {Le Congrès aura le pouvoir d'appliquer cet article-ci par législation convenable.}
@@ -592,7 +596,7 @@ Passed by Congress June 4, 1919. Ratified August 18, 1920.
 ~
 
 \tblock
-{Congress shall have power to enforce this article by appropriate legislation.}
+{\gls{congress} shall have power to enforce this article by appropriate legislation.}
 {Samlaget skall hava makt att framtvinga denna artikel genom tillämplig lagstiftning.}
 {Eduskunnalla pitää oleman valtuuden pakottaa tätä artiklaa asiallisen lainsäädönnön kautta.}
 {Le Congrès aura du pouvoir d'appliquer cet article-ci par législation convenable.}
@@ -632,7 +636,7 @@ Passed by Congress August 27, 1962. Ratified January 23, 1964.
 ~
 
 \tblock
-{or for Senator or Representative in Congress,}
+{or for Senator or Representative in \gls{congress},}
 {eller för Senator eller Representat i Samlag,}
 {taikka yliherrasta taikka edustajasta Eduskunnassa,}
 {ou de Sénateur ou de Representative à Congrès,}
@@ -650,7 +654,7 @@ Passed by Congress August 27, 1962. Ratified January 23, 1964.
 ~
 
 \tblock
-{by reason of failure to pay any poll tax or other tax.}
+{by reason of failure to pay any \gls{poll-tax} or other tax.}
 {på grund av underlåtenhet att betala någon skatt per capita eller annan skatt.}
 {selityksellä olemasta maksamatta henkilömääräveroa taikka toista veroa.}
 {à compte de défaillance de payer aucune capitation ou autre taxe.}
@@ -659,7 +663,7 @@ Passed by Congress August 27, 1962. Ratified January 23, 1964.
 
 \subsubsection*{Section 2.}
 \tblock
-{The Congress shall have power to enforce this article by appropriate legislation.}
+{The \gls{congress} shall have power to enforce this article by appropriate legislation.}
 {Samlaget skall hava makt att framtvinga denna artikel genom tillämplig lagstiftning.}
 {Eduskunnalla pitää oleman valtuuden pakottaa tätä artiklaa asiallisen lainsäädönnön kautta.}
 {Le Congrès aura du pouvoir d'appliquer cet article-ci par législation convenable.}
@@ -703,15 +707,15 @@ Passed by Congress August 27, 1962. Ratified January 23, 1964.
 
 \subsubsection*{Section 2.}
 \tblock
-{The Congress shall have power to enforce this article by appropriate legislation.}
+{The \gls{congress} shall have power to enforce this article by appropriate legislation.}
 {Samlaget skall hava makt att framtvinga denna artikel genom tillämplig lagstiftning.}
 {Eduskunnalla pitää oleman valtuuden pakottaa tätä artiklaa asiallisen lainsäädönnön kautta.}
 {Le Congrès aura du pouvoir d'appliquer cet article-ci par législation convenable.}
 {!`no habla español!}
 
-
+\color{red}
 \section*{The End of Civil Rights}
-\subsection*{Not just psychiatry --- all sorts of medical quackery}
+\subsection*{U.S. defeat in the the Vietnam War}
 
 \tblock
 {All male infants, born in the United States, must be circumcised immediately at birth.}  
@@ -719,6 +723,9 @@ Passed by Congress August 27, 1962. Ratified January 23, 1964.
 {Kaikkia miespuolisia lapsia, Yhdys-Valloissa syntyneitä, täytyy ympärileikata heti syntymällä.}
 {Tous enfants mâles, nés aux États-Unis, doivent être circoncis immédiatement à la naissance.}
 {!`no habla español!}
+\color{black}
+
+\printglossaries
 
 \bibliography{bor}{}
 
